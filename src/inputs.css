@@ -37,9 +37,7 @@
     border-radius: 0;
 }
 
-.input-group *:not(:last-child){
-    border-right: none;
-}
+
 .input-group *:not(:first-child){
     border-left: none;
 }
