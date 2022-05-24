@@ -1,0 +1,48 @@
+
+.pastel-red{
+    --bright:rgb(253, 236, 236);
+    --medium:rgb(255, 200, 200);
+    --dark:rgb(255, 100, 100);
+}
+.pastel-green{
+    --bright: rgb(236, 253, 236);
+    --medium:rgb(200, 255, 200);
+    --dark:rgb(100, 255, 100);
+}
+.pastel-blue{
+    --bright: rgb(236, 236, 253);
+    --medium:rgb(200, 200, 255);
+    --dark:rgb(100, 100, 255);
+}
+.pastel-orange{
+    --bright: rgb(253, 236, 236);
+    --medium:rgb(255, 229, 200);
+    --dark:rgb(255, 175, 100);
+}
+.pastel-pink{
+    --bright: rgb(253, 236, 236);
+    --medium:rgb(255, 200, 255);
+    --dark:rgb(255, 100, 255);
+}
+.pastel-black{
+    --bright: rgb(236, 236, 236);
+    --medium:rgb(200, 200, 200);
+    --dark:rgb(100, 100, 100);
+}
+.pastel-cyan{
+    --bright: rgb(236, 252, 253);
+    --medium:rgb(200, 255, 255);
+    --dark:rgb(100, 255, 255);
+}   
+
+.pastel-blue{
+    --bright: rgb(236, 236, 253);
+    --medium:rgb(200, 230, 255);
+    --dark:rgb(100, 180, 255);  
+}
+
+.pastel-purple{
+    --bright: rgb(236, 236, 253);
+    --medium:rgb(216, 200, 255);
+    --dark:rgb(141, 100, 255);  
+}

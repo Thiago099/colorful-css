@@ -1,0 +1,40 @@
+
+.pastel-button, .pastel-input{
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 3px;
+    background-color:var(--medium) ;
+    border:2pt solid var(--dark);
+    font-size: 13pt;
+    text-align : center;
+    outline-style: none;
+    
+}
+.pastel-button{
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pastel-button:hover{
+    background-color:var(--dark);
+    color:white;
+}
+
+.input-group *{
+    margin-top: 10px;
+}
+.input-group *:first-child{
+    border-right :none;
+    border-radius: 3px 0 0 3px;
+}
+
+.input-group *:last-child{
+    border-left :none;
+    border-radius: 0 3px 3px 0;
+}
+.input-group *:not(:last-child,:first-child){
+    border-left: none;
+    border-right: none;
+    border-radius: 0 0 0 0;
+}
