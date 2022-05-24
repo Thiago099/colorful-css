@@ -5,7 +5,7 @@
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 3px;
-    background-color:var(--medium) ;
+    background-color:var(--bright) ;
     border:2pt solid var(--dark);
     font-size: 13pt;
     text-align : center;
@@ -24,9 +24,8 @@
 }
 .pastel-button:hover{
     
-    background-color:var(--dark);
-    color:white;
-}
+    background-color:var(--medium);
+    }
 .input-group{
     flex-direction: row;
     display: inline-flex;
