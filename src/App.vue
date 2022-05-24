@@ -18,12 +18,14 @@ const colors = [
   <header>
   </header>
   <main>
-    <div :class="`input-group pastel-${color}`" v-for="color in colors" :key="color">
-      <input type="text" class="pastel-input" />
-      <input type="submit" class="pastel-button">
+    <div >
+      <div :class="`input-group pastel-${color}`" v-for="color in colors" :key="color"    >
+        <input type="text" class="pastel-input" />
+        <input type="submit" class="pastel-button">
+      </div>
     </div>
     <br>
-    <table :class="`pastel-${color}`" v-for="color in colors" :key="color">
+    <table :class="`pastel-table pastel-${color}`" v-for="color in colors" :key="color">
       <tr>
         <th>Company</th>
         <th>Contact</th>
@@ -66,10 +68,9 @@ const colors = [
 <style>
 .input-group{
     margin:5px;
-    display: inline-block;
-
+    width: 400px;
 }
-table{
+.pastel-table{
     margin:5px;
     display: inline-block;
 }

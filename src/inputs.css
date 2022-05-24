@@ -1,5 +1,6 @@
 
 .pastel-button, .pastel-input{
+    flex: 1;
     padding: 5px;
     padding-left: 0px;
     padding-right: 0px;
@@ -11,30 +12,45 @@
     outline-style: none;
     
 }
+.pastel-input{
+    min-width: 0px;
+
+}
 .pastel-button{
+    flex: 0;
     cursor: pointer;
     padding-left: 10px;
     padding-right: 10px;
 }
 .pastel-button:hover{
+    
     background-color:var(--dark);
     color:white;
 }
+.input-group{
+    flex-direction: row;
+    display: inline-flex;
+    align-content: stretch;
+}
 
 .input-group *{
-    margin-top: 10px;
+    border-radius: 0;
+}
+
+.input-group *:not(:last-child){
+    border-right: none;
+}
+.input-group *:not(:first-child){
+    border-left: none;
 }
 .input-group *:first-child{
-    border-right :none;
-    border-radius: 3px 0 0 3px;
+    border-radius: 5px 0 0 5px;
 }
 
 .input-group *:last-child{
-    border-left :none;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 5px 5px 0; 
 }
-.input-group *:not(:last-child,:first-child){
-    border-left: none;
-    border-right: none;
-    border-radius: 0 0 0 0;
+
+.input-group *:only-child{
+    border-radius: 5px;
 }
