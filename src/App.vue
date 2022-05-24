@@ -68,7 +68,7 @@ const colors = [
 <style>
 .input-container{
     margin:5px;
-    width: 400px;
+    width: 437px;
 }
 .pastel-table{
     margin:5px;
