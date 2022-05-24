@@ -19,7 +19,7 @@ const colors = [
   </header>
   <main>
     <div >
-      <div :class="`input-group pastel-${color}`" v-for="color in colors" :key="color"    >
+      <div :class="`input-container pastel-${color}`" v-for="color in colors" :key="color"    >
         <input type="text" class="pastel-input" />
         <input type="submit" class="pastel-button">
       </div>
@@ -66,7 +66,7 @@ const colors = [
 </template>
 
 <style>
-.input-group{
+.input-container{
     margin:5px;
     width: 400px;
 }

@@ -1,3 +1,27 @@
+.input-container{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+.input-container *{
+    border-radius: 0;
+}
+
+.input-container *:not(:first-child){
+    border-left: none;
+}
+.input-container *:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+.input-container *:last-child{
+    border-radius: 0 5px 5px 0; 
+}
+
+.input-container *:only-child{
+    border-radius: 5px;
+}
 
 .pastel-button, .pastel-input{
     flex: 1;
@@ -23,31 +47,6 @@
     padding-right: 20px;
 }
 .pastel-button:hover{
-    
     background-color:var(--medium);
-    }
-.input-group{
-    flex-direction: row;
-    display: inline-flex;
-    align-content: stretch;
 }
 
-.input-group *{
-    border-radius: 0;
-}
-
-
-.input-group *:not(:first-child){
-    border-left: none;
-}
-.input-group *:first-child{
-    border-radius: 5px 0 0 5px;
-}
-
-.input-group *:last-child{
-    border-radius: 0 5px 5px 0; 
-}
-
-.input-group *:only-child{
-    border-radius: 5px;
-}
