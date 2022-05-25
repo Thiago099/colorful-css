@@ -61,7 +61,6 @@
 }
 .button-selected{
     background-color: var(--dark);
-    color: var(--bright);
 }
 .button:hover:not(.button-selected){
     background-color:var(--medium);
