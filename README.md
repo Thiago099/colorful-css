@@ -1,4 +1,5 @@
 # components
+![image](https://user-images.githubusercontent.com/66787043/170295058-706f85d8-a4e6-4abd-b161-95c048af3ba3.png)
 
 This template should help get you started developing with Vue 3 in Vite.
 
