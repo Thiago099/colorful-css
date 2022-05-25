@@ -2,6 +2,7 @@
 import './colors.css'
 import './inputs.css'
 import './table.css'
+import './card.css'
 const colors = [
   'black',
   'red',
@@ -62,6 +63,10 @@ const colors = [
         <td>Italy</td>
       </tr>
     </table>
+    <div :class="`card pastel-${color}`" v-for="color in colors" :key="color">
+      <div class="card-header">Text</div>
+      <div class="card-body">Content</div>
+    </div>
   </main>
 </template>
 
@@ -74,4 +79,11 @@ const colors = [
     margin:5px;
     display: inline-block;
 }
+.card{
+  margin:5px;
+  width: 437px;
+  height: 200px;
+  display: inline-block;
+}
+
 </style>

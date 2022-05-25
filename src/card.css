@@ -1,0 +1,19 @@
+.card{
+    background-color: var(--bright);
+    border-radius: 13px;
+    border: 2px solid var(--dark)
+}
+.card-header{
+    background-color: var(--medium);
+    height: 50px;
+    border-radius: 13px 13px 0px 0px;
+    border-bottom: 2px solid var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15pt;
+}
+.card-body{
+    padding: 15px;
+    text-align: center;
+}
