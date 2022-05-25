@@ -31,9 +31,9 @@ const colors = [
         </div>
         <div :class="`col-3 pastel-${color}`" v-for="color in colors" :key="color">
           <div class="input-container">
-            <input type="submit" class="button button-stretch button-selected" value="Yes">
-            <input type="submit" class="button button-stretch" value="No">
-            <input type="submit" class="button button-stretch" value="Maybe">
+            <input type="submit" class="button button-selected" value="Yes">
+            <input type="submit" class="button" value="No">
+            <input type="submit" class="button" value="Maybe">
 
           </div>
         </div>
