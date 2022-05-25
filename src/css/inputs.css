@@ -3,6 +3,7 @@
 .input-label{
     display: block;
     margin-bottom: 0.5rem;
+    color: var(--very-dark);
 }
 /* CONTAINER */
 .input-container{
