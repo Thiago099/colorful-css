@@ -3,6 +3,7 @@ import './colors.css'
 import './inputs.css'
 import './table.css'
 import './card.css'
+import './nav.css'
 const colors = [
   'black',
   'red',
@@ -67,6 +68,12 @@ const colors = [
       <div class="card-header">Title</div>
       <div class="card-body">Content</div>
     </div>
+    <div :class="`nav pastel-${color}`" v-for="color in colors" :key="color">
+      <div class="nav-item nav-selected">Home</div>
+      <div class="nav-item">About</div>
+      <div class="nav-item">Contact</div>
+
+    </div>
   </main>
 </template>
 
@@ -83,6 +90,11 @@ const colors = [
   margin:5px;
   width: 437px;
   height: 200px;
+  display: inline-block;
+}
+.nav{
+  margin:5px;
+  width: 437px;
   display: inline-block;
 }
 
