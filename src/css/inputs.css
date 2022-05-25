@@ -1,7 +1,16 @@
+/* LABEL */
+
+.input-label{
+    display: block;
+    margin-bottom: 0.5rem;
+    color:var(--dark)
+}
+/* CONTAINER */
 .input-container{
     display: inline-flex;
     flex-direction: row;
     align-content: stretch;
+    width: 100%;
 }
 
 .input-container *{
@@ -22,6 +31,8 @@
 .input-container *:only-child{
     border-radius: 5px;
 }
+
+/* INPUTS */
 
 .pastel-button, .pastel-input{
     flex: 1;
