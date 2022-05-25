@@ -64,7 +64,7 @@ const colors = [
       </tr>
     </table>
     <div :class="`card pastel-${color}`" v-for="color in colors" :key="color">
-      <div class="card-header">Text</div>
+      <div class="card-header">Title</div>
       <div class="card-body">Content</div>
     </div>
   </main>
