@@ -7,7 +7,7 @@
 .pastel-green{
     --bright: rgb(236, 253, 236);
     --medium:rgb(200, 255, 200);
-    --dark:rgb(100, 255, 100);
+    --dark:rgb(90, 219, 90);
 }
 
 .pastel-orange{
@@ -21,24 +21,24 @@
     --dark:rgb(255, 100, 255);
 }
 .pastel-black{
-    --bright: rgb(236, 236, 236);
-    --medium:rgb(200, 200, 200);
-    --dark:rgb(100, 100, 100);
+    --bright: rgb(243, 243, 243);
+    --medium:rgb(197, 197, 197);
+    --dark:rgb(146, 146, 146);
 }
 .pastel-cyan{
     --bright: rgb(236, 252, 253);
     --medium:rgb(200, 255, 255);
-    --dark:rgb(100, 255, 255);
+    --dark:rgb(97, 238, 238);
 }   
 
 .pastel-blue{
     --bright: rgb(236, 236, 253);
     --medium:rgb(200, 230, 255);
-    --dark:rgb(100, 180, 255);  
+    --dark:rgb(128, 193, 255);  
 }
 
 .pastel-purple{
     --bright: rgb(236, 236, 253);
     --medium:rgb(216, 200, 255);
-    --dark:rgb(141, 100, 255);  
+    --dark:rgb(162, 129, 255);  
 }
