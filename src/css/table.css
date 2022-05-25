@@ -13,6 +13,7 @@ tr:nth-child(even){
     margin:5px;
     margin-top: 10px;
     --radius: 13px;
+    color: var(--very-dark);
     text-align: center;
     border-collapse:separate;
     overflow: hidden;

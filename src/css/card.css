@@ -1,7 +1,8 @@
 .card{
     background-color: var(--bright);
     border-radius: 13px;
-    border: 2px solid var(--dark)
+    border: 2px solid var(--dark);
+    color: var(--very-dark);
 }
 .card-header{
     background-color: var(--medium);
