@@ -34,12 +34,11 @@
 
 /* INPUTS */
 
-.pastel-button, .pastel-input{
+.button, .input{
     flex: 1;
     padding: 5px;
     padding-left: 0px;
     padding-right: 0px;
-    border-radius: 3px;
     background-color:var(--bright) ;
     border:2pt solid var(--dark);
     font-size: 13pt;
@@ -47,17 +46,24 @@
     outline-style: none;
     
 }
-.pastel-input{
+.input{
     min-width: 0px;
 
 }
-.pastel-button{
-    flex: 0;
-    cursor: pointer;
+.button{
+    flex:1;
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
 }
-.pastel-button:hover{
+.button-fit{
+    flex:0;
+}
+.button-selected{
+    background-color: var(--dark);
+    color: var(--bright);
+}
+.button:hover:not(.button-selected){
     background-color:var(--medium);
 }
 

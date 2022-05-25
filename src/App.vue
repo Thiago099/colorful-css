@@ -25,11 +25,19 @@ const colors = [
         <div :class="`col-3 pastel-${color}`" v-for="color in colors" :key="color" >
           <label for="a" class="input-label">Label:</label>
           <div class="input-container">
-            <input type="text" class="pastel-input" />
-            <input type="submit" class="pastel-button">
+            <input type="text" class="input" />
+            <input type="submit" class="button button-fit">
           </div>
         </div>
-      <table :class="`col-3 pastel-table pastel-${color}`" v-for="color in colors" :key="color">
+        <div :class="`col-3 pastel-${color}`" v-for="color in colors" :key="color">
+          <div class="input-container">
+            <input type="submit" class="button button-stretch button-selected" value="Yes">
+            <input type="submit" class="button button-stretch" value="No">
+            <input type="submit" class="button button-stretch" value="Maybe">
+
+          </div>
+        </div>
+      <table :class="`col-3 table pastel-${color}`" v-for="color in colors" :key="color">
         <tr>
           <th>Company</th>
           <th>Contact</th>

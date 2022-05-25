@@ -9,7 +9,7 @@ tr:nth-child(even){
 }
 
 /* table shape */
-.pastel-table{
+.table{
     margin:5px;
     margin-top: 10px;
     --radius: 13px;
@@ -19,35 +19,35 @@ tr:nth-child(even){
     border-spacing: 0;
 }
 
-.pastel-table td,.pastel-table th{
+.table td,.table th{
     padding: 10px;
     border: 2px solid var(--dark);
 }
 
-.pastel-table th,.pastel-table td{
+.table th,.table td{
     border-bottom-width: 0;
     border-left-width: 0;
 }
-.pastel-table tr:last-child td,.pastel-table tr:last-child td{
+.table tr:last-child td,.table tr:last-child td{
     border-bottom-width: 2px;
 }
 
-.pastel-table th:first-child,.pastel-table td:first-child{
+.table th:first-child,.table td:first-child{
     border-left-width: 2px;
 }
 
-.pastel-table tr:first-child th:first-child{
+.table tr:first-child th:first-child{
     border-radius:var(--radius) 0 0 0;
 }
 
-.pastel-table tr:first-child th:last-child{
+.table tr:first-child th:last-child{
     border-radius:0 var(--radius) 0 0;
 }
 
-.pastel-table tr:last-child td:first-child{
+.table tr:last-child td:first-child{
     border-radius:0 0 0 var(--radius);
 }
 
-.pastel-table tr:last-child td:last-child{
+.table tr:last-child td:last-child{
     border-radius:0 0 var(--radius) 0;
 }
