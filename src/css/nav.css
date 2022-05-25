@@ -1,14 +1,13 @@
 .nav{
-    background-color: var(--bright);
-    border: 2px solid var(--dark);
     border-radius: 5px;
     color: var(--very-dark);        
 }
 .nav-item{
     padding: 10px 20px 10px 20px;
     font-size: 15pt;
-    border-right: 2px solid var(--dark);
     display: inline-block;
+    border-radius: 5px;
+    margin:3px;
 }
 .nav-item:not(.nav-selected)
 {
