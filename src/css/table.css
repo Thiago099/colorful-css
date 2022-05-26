@@ -2,7 +2,7 @@
 /* table coloring */
 th{
     background-color: var(--medium);   
-    box-shadow: inset 0 0 10px var(--dark);
+    box-shadow: inset 0 0 5px var(--dark);
 }
 
 tr:nth-child(even){
@@ -24,7 +24,7 @@ tr:nth-child(even){
 .table td,.table th{
     padding: 10px;
     border: 2px solid var(--dark);
-    box-shadow: inset 0 0 10px var(--medium);
+    box-shadow: inset 0 0 5px var(--medium);
 
 }
 
