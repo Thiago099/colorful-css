@@ -74,22 +74,54 @@ const colors = [
           <td>Italy</td>
         </tr>
       </table>
-    <div :class="`col-3 card pastel-${color}`" v-for="color in colors" :key="color">
-      <div class="card-header">Title</div>
-      <div class="card-body">Content</div>
-    </div>
-    <div :class="`col-3 nav pastel-${color}`" v-for="color in colors" :key="color">
-      <div class="nav-item nav-selected">Home</div>
-      <div class="nav-item">About</div>
-      <div class="nav-item">Contact</div>
-    </div>
+      <div :class="`col-3 card pastel-${color}`" v-for="color in colors" :key="color">
+        <div class="card-header">Title</div>
+        <div class="card-body">Content</div>
+      </div>
+      <div :class="`col-3 nav pastel-${color}`" v-for="color in colors" :key="color">
+        <div class="nav-item nav-selected">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Contact</div>
+      </div>
+      <div  :class="`col-3 nav vertical-nav pastel-${color}`" v-for="color in colors" :key="color">
+          <div class="nav-item nav-selected">
+            Home
+          </div>
+          <div class="nav-item">
+            About
+          </div>
+          <div class="nav-item">
+            Contact
+          </div>
+      </div>
     </div>
   </main>
 </template>
 
 <style>
 
+.vertical-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.vertical-menu-item{
+  width: 100%;
+  height: 50px;
+  color:var(--very-dark);
+  text-align: center;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+
+}
+.vertical-menu-item:hover{
+  background-color: var(--medium);
+}
 
 
 </style>

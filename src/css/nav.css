@@ -2,15 +2,25 @@
     border-radius: 5px;
     color: var(--very-dark);        
 }
-.nav-item{
+.nav:not(.vertical-nav) .nav-item{
     padding: 10px 20px 10px 20px;
     font-size: 15pt;
     display: inline-block;
     border-radius: 5px;
     margin:3px;
     transition: all 0.2s ease-in-out;
-
 }
+.vertical-nav .nav-item{
+    padding: 10px 20px 10px 20px;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin:10px;
+    transition: all 0.2s ease-in-out;
+}
+
 .nav-item:not(.nav-selected)
 {
     cursor: pointer;    
