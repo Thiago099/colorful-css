@@ -19,6 +19,7 @@ tr:nth-child(even){
     border-collapse:separate;
     overflow: hidden;
     border-spacing: 0;
+    animation: pop-in 0.2s ease-in-out;
 }
 
 .table td,.table th{

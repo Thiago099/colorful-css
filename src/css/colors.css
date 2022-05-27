@@ -50,3 +50,14 @@
     --dark:rgb(162, 129, 255);  
     --very-dark:rgb(0, 0, 146);
 }
+
+@keyframes pop-in {
+    0% {
+        transform: scale(0.5) translate(0, -100px);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
