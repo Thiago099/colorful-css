@@ -48,17 +48,15 @@
     font-size: 13pt;
     text-align : center;
     outline-style: none;
-    height: 45px;
-    
 }
 .input{
-    height: 29.5px;
     min-width: 0px;
     color: var(--very-dark);
     caret-color: var(--very-dark);
     box-shadow: inset 0 0 5px var(--medium);
 }
 .button{
+    height: 40px;
     flex:1;
     padding-left: 20px;
     padding-right: 20px;
@@ -78,7 +76,7 @@
 }
 .button:hover:not(.button-selected){
     background-color:var(--medium);
-    font-size: 17pt;
+    font-size: 16pt;
 
 }
 
