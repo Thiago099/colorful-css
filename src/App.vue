@@ -1,10 +1,5 @@
 <script setup lang="ts">
-import './css/colors.css'
-import './css/inputs.css'
-import './css/table.css'
-import './css/card.css'
-import './css/nav.css'
-import './css/content.css'
+import './main.css'
 const colors = [
   'black',
   'red',
